@@ -17,7 +17,7 @@ public class WebCrawlerController {
 	@GetMapping("/initiate")
 	private String initiateProcess() {
 		webCrawlerService.loginInternshala();
-		webCrawlerService.addPositionInInternshala("kkkk");
+		webCrawlerService.addPositionInInternshala("New Role");
 		return "Done!";
 	}
 
